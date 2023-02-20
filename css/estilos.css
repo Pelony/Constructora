@@ -26,10 +26,10 @@ body{
     background-color: var(--ColorBlanco);
     font-family: var(--FuentePrincipal);
     color: black;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
+    
+
 }
+
 .container{
     max-width: 1440px;
     margin: 0 auto;
@@ -203,6 +203,30 @@ nav{
     filter: blur(4px);
     filter: hue-rotate(360deg);
 }
+@media (max-width:480px ) {
+
+    .bg{
+        height: 60rem;
+    }
+    .header_para{
+        font-size:1.5rem ;
+    }
+}
+@media (min-width:481px ) {
+
+    .bg{
+    width: 100%;
+    height: 30rem;
+    background-repeat: repeat;
+    background-size: cover;
+    filter: blur(4px);
+    filter: hue-rotate(360deg);
+    }
+    .header_para{
+        font-size:1.5rem ;
+    }
+}
+
 
 .header__text{
     position: absolute;
@@ -226,9 +250,9 @@ nav{
 /* MAIN */
 
 main{
-    width: 60%;
-    
-    margin:auto;
+    display: block;
+    width: 100%;
+    margin: auto;
 }
 @media (min-width: 769px) {
     main{
@@ -240,13 +264,10 @@ p{
     font-size: 1.5rem;
     
 }
+
 .contenedor__main{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    align-items: center;
-    justify-content: center;
+    width:100%;
     gap: 2rem;
-    width:60%;
 }
 @media (min-width: 769px) {
     .contenedor__main{
@@ -258,30 +279,57 @@ p{
     width:100%;
     }
 }
+.align{
+    text-align: justify;
+}
+
 .contenedor__mapa{
-    height: 600px;
+    height: 300px;
     width: 100%;
     margin: auto;
     background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+@media (min-width: 769px) {
+    .contenedor__mapa{
+        height: 600px;
+        width: 100%;
+        margin: auto;
+        background-color: #ebebeb;
+    }
+}
+
 .mapa{
-    height: 600px;
-    width: 900px;
+    height: 300px;
+    width: 450px;
     padding-top:1rem ;
+    padding-bottom: 4rem;
     
+}
+@media (min-width: 769px) {
+    .mapa{
+        height: 600px;
+        width: 900px;
+        padding-top:1rem ;
+        padding-bottom: 4rem;
+        
+    }
 }
 .center{
     text-align: center;
 
 }
 .contenedor__imagenes{
+    
     padding-bottom: 2rem;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 2rem;
     align-items: center;
-
+   
 }
 
 @media (min-width: 769px) {
@@ -311,8 +359,7 @@ img{
 .footer{
     background-color: var(--ColorAzulObs);
     height: 25rem;
-    
-
+    padding-top: 2rem;
 }
 .caja{
    
@@ -392,4 +439,9 @@ img{
 
 .roboto{
     font-family: var(--Roboto);
+}
+
+.centrar{
+    display: flex;
+    flex-direction: column;
 }
