@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Roboto&display=swap');
+
+:root{
+    --FuentePrincipal:'Raleway', sans-serif;
+    --Roboto:'Roboto', sans-serif;
+    --ColorPrincipal: #ffe34f;
+    --ColorSecundario: #ff6341;
+    --ColorAzul: #3498ff;
+    --ColorBlanco: #f2f5f5;
+    --ColorAzulObs: #152039;
+    
+}
+body{
+    background-color: var(--ColorBlanco);
+}
+.container__cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 227px;
+    height: 400px;
+    margin:10px;
+    border-radius: 15px;
+
+}
+
+.card-image{
+    background-color: aqua;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+}
+
+.car-1{
+    background-image: url("../img/img3.jpg");
+}
+.car-2{
+    background-image: url("../img/img4.jpg");
+}
+.car-3{
+    background-image: url("../img/img5.jpg");
+}
+
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    
+}
+
+.card:hover{
+    background-color: var(--ColorPrincipal);
+    color: black;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
