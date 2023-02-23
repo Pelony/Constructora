@@ -764,3 +764,32 @@ color: black;
     color: black;
     font-size: 14px;
 }
+
+.img__nosotros{
+    background-image: url("../img/img7.jpg");
+
+}
+.img__noticias{
+    background-image: url("../img/img4.jpg");
+}
+.img__register{
+    background-image: url("../img/img5.jpg");
+}
+.img__valores{
+    background-image: url("../img/img6.jpg");
+}
+.img__login{
+    background-image: url("../img/img1.jpg");
+}
+.img__galeria{
+    background-image: url("../img/img1.jpg");
+}
+.img__contacto{
+    background-image: url("../img/img1.jpg");
+}
+.img__construcciones{
+    background-image: url("../img/img1.jpg");
+}
+.img__comercialbg{
+    background-image: url("../img/img1.jpg");
+}
