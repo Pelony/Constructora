@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;&family=Roboto&display=swap');
 
 :root{
     --FuentePrincipal:'Raleway', sans-serif;
@@ -770,26 +770,26 @@ color: black;
 
 }
 .img__noticias{
-    background-image: url("../img/img4.jpg");
+    background-image: url("../img/Muelle-Salina-Cruz-Oaxaca-Grupo-Indi.jpg");
 }
 .img__register{
-    background-image: url("../img/img5.jpg");
+    background-image: url("../img//Puerto-Manzanillo-1-Grupo-Indi.jpg");
 }
 .img__valores{
-    background-image: url("../img/img6.jpg");
+    background-image: url("../img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg");
 }
 .img__login{
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/Distribuidor-Vial-Subterraneo-Insurgentes-Mixcoac-Grupo-Indi.jpg");
 }
 .img__galeria{
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/Patio-Martin-Carrera-CDMX-Grupo-Indi.jpg");
 }
 .img__contacto{
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/Circuito-Interior-CDMX-Grupo-Indi-Ingenieria-Infraestructura.jpg");
 }
 .img__construcciones{
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/Tribunal-Superior-de-Justicia-CDMX-Grupo-Indi.jpg");
 }
 .img__comercialbg{
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/Senado-de-la-Republica-PanoramicaGrupo-Indi.jpg");
 }
