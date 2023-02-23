@@ -215,8 +215,8 @@ nav{
     position: absolute;
     top: 50%;
     left: 50%;
-    rotate: -2deg;
-    translate: -50% -50%;
+    
+    
     width: 150%;
     height: 125%;
     background: white;
@@ -382,7 +382,7 @@ img{
     width: 400px;
 }
 .pb{
-    padding-bottom: rem;
+    padding-bottom: 2rem;
 }
 .mt{
     margin-top: 1rem;
