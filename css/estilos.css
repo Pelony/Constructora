@@ -657,7 +657,23 @@ color: black;
 
 .img__comercial{
     width: 100%;
-    height: 80rem;
+    height: 30rem;
+    margin: auto;
+}
+@media (min-width: 769px) {
+    .img__comercial{
+        width: 100%;
+        height: 80rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 400px) {
+    .img__comercial{
+        width: 100%;
+        height: 60rem;
+        margin: auto;
+    }
 }
 .grid__inmobiliario{
     display: grid;
